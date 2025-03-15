@@ -615,7 +615,7 @@ logo = f"""
 \33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mDEVELOPER   \33[38;5;160m▶  \033[1;97mMUHAMMAD TABASSUM
 \33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mGITHUB      \33[38;5;160m▶  \033[1;97mTabbu Arain
 \33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mFEATURES    \33[38;5;160m▶  \033[1;97mOLD CLONING 
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mVERSION    \33[38;5;160m▶  \033[1;97mFREE \33[38;5;37m≫ \033[1;97mUPDATED 2.0
+\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mVERSION     \33[38;5;160m▶  \033[1;97mFREE \33[38;5;37m≫ \033[1;97mUPDATED 2.0
 \33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"""
 
 def clear():
@@ -986,7 +986,7 @@ def meyexudi():
       print(' \x1b[1;98m║══[•]💥  ONLY ACTIVE ID CLONE 100%')
       print(' \x1b[1;93m║══[•]💥  CP ID WILL BE LOGIN 80%')
       print(' \x1b[1;97m║══[•]💥  WI-FI  AND DATA BOTH WORKING 100%')
-      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   TABBU,   ARAIN ,    Please,   Send,   Your,   Key,"')
+      os.system('espeak -a 300 " Assalamualaikum,   I,   Am,    Robot,   of,   TABBU,   KING ,    Please,   Send,   Your,   Key,"')
       print(" \x1b[0m║══[KEY]  : "+id)
       uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
       input(' \033[1;30m╚══[•] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
