@@ -601,7 +601,7 @@ for xd in range(10000):
 
 
 
-def linex():print(f'\r\33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+def linex():print(f'\r\33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 def line():print(f'\r\n\33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 
 
@@ -612,12 +612,12 @@ logo = f"""
    [1;95m██║   ██╔══██║██╔══██╗██╔══██╗██║   ██║
    [1;96m██║   ██║  ██║██████╔╝██████╔╝╚██████╔╝
    [1;97m╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═════╝  ╚═════╝ 
-\33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+\33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mDEVELOPER   \33[38;5;160m➤  \033[1;97m𝙈𝙐𝙃𝘼𝙈𝙈𝘼𝘿 𝙏𝘼𝘽𝘼𝙎𝙎𝙐𝙈
 \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mGITHUB      \33[38;5;160m➤  \033[1;97m𝙏𝙖𝙗𝙗𝙪-𝘼𝙧𝙖𝙞𝙣
 \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mFEATURES    \33[38;5;160m➤  \033[1;97m𝙊𝙇𝘿 𝘾𝙇𝙊𝙉𝙄𝙉𝙂 
 \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mVERSION     \33[38;5;160m➤  \033[1;97m𝙵𝚁𝙴𝙴 🥳 \33[38;5;37m≫ \033[1;97m𝙐𝙋𝘿𝘼𝙏𝙀𝘿 2.1
-\33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"""
+\33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"""
 
 def clear():
 	os.system('clear');print(logo)
@@ -627,14 +627,14 @@ def main():
 	animation = ["[\x1b[1;91m■\x1b[0m□□□□□□□□□]","[\x1b[1;92m■■\x1b[0m□□□□□□□□]", "[\x1b[1;93m■■■\x1b[0m□□□□□□□]", "[\x1b[1;94m■■■■\x1b[0m□□□□□□]", "[\x1b[1;95m■■■■■\x1b[0m□□□□□]", "[\x1b[1;96m■■■■■■\x1b[0m□□□□]", "[\x1b[1;97m■■■■■■■\x1b[0m□□□]", "[\x1b[1;98m■■■■■■■■\x1b[0m□□]", "[\x1b[1;99m■■■■■■■■■\x1b[0m□]", "[\x1b[1;910m■■■■■■■■■■\x1b[0m]"]
 	for i in range(30):
 		time.sleep(0.1)
-		sys.stdout.write(f"\r{r}[{w}ᯤ{r}]{s} LOADING...\033[97;1m " + animation[i % len(animation)] +"\x1b[0m ")
+		sys.stdout.write(f"\r{r}[{w}[😈]{r}]{s} LOADING...\033[97;1m " + animation[i % len(animation)] +"\x1b[0m ")
 		sys.stdout.flush()
 	clear()
 	print(f'\33[38;5;160m[\033[1;97mA/1\33[38;5;160m] \033[1;97mOLD CLONE \33[38;5;160m[\33[38;5;37m2009\33[38;5;160m/\33[38;5;37m2010\33[38;5;160m]\033[1;97m')
 	print(f'\33[38;5;160m[\033[1;97mB/2\33[38;5;160m] \033[1;97mOLD CLONE \33[38;5;160m[\33[38;5;37m2011\33[38;5;160m/\33[38;5;37m2012\33[38;5;160m]\033[1;97m')
 	print(f'\33[38;5;160m[\033[1;97mC/3\33[38;5;160m] \033[1;97mOLD CLONE \33[38;5;160m[\33[38;5;37m2013\33[38;5;160m/\33[38;5;37m2014\33[38;5;160m]\033[1;97m')
 	linex()
-	ch = input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
+	ch = input(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
 	if ch in ('1','01','11','A','১','০১','a','A'):
 		__Old1__()
 	elif ch in ('2','02','22','b','B'):
@@ -643,99 +643,76 @@ def main():
 		__Old3__()
 	elif ch in ('4','04','44','D','d'):
 		__Old4__()
- 
-def __Old1__():
-    user=[]
-    clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
-    linex()
-    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
-    linex()
-    year_code = '100000'
-    for i in range(int(limit)):
-    	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=50) as jihad:
-        clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
-        print(' \x1b[1;98m║══[😈]💥  ONLY ACTIVE ID CLONE 100%')
-        print(' \x1b[1;93m║══[😈]💥  CP ID WILL BE LOGIN 80%')
-        print(' \x1b[1;97m║══[😈]💥  WI-FI  AND DATA BOTH WORKING 100%')
-        linex()
-        for mal in user:
-        	uid=year_code+mal
-        	jihad.submit(login1,uid)
-    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 
 def __Old2__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
+    print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
     linex()
-    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
+    limit=input(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
     with tred(max_workers=50) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
-        print(' \x1b[1;98m║══[😈]💥  ONLY ACTIVE ID CLONE 100%')
-        print(' \x1b[1;93m║══[😈]💥  CP ID WILL BE LOGIN 80%')
-        print(' \x1b[1;97m║══[😈]💥  WI-FI  AND DATA BOTH WORKING 100%')
+        print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
         linex()
         for mal in user:
             uid=year_code+mal
             jihad.submit(login2,uid)
-    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
+    line();print(f'\r\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 def __Old3__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
+    print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
     linex()
-    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
+    limit=input(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
     with tred(max_workers=50) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
-        print(' \x1b[1;98m║══[😈]💥  ONLY ACTIVE ID CLONE 100%')
-        print(' \x1b[1;93m║══[😈]💥  CP ID WILL BE LOGIN 80%')
-        print(' \x1b[1;97m║══[😈]💥  WI-FI  AND DATA BOTH WORKING 100%')
+        print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
         linex()
         for mal in user:
             uid=year_code+mal
             jihad.submit(login3,uid)
-    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
+    line();print(f'\r\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 def __Old4__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤\033[1;97m 20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
+    print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤\033[1;97m 20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
     linex()
-    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
+    limit=input(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
     with tred(max_workers=50) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
-        print(' \x1b[1;98m║══[😈]💥  ONLY ACTIVE ID CLONE 100%')
-        print(' \x1b[1;93m║══[😈]💥  CP ID WILL BE LOGIN 80%')
-        print(' \x1b[1;97m║══[😈]💥  WI-FI  AND DATA BOTH WORKING 100%')
+        print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
         linex()
         for mal in user:
             uid=year_code+mal
             jihad.submit(login4,uid)            
-    line();print(f'\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
+    line();print(f'\r\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
 def login1(uid):
     global oks,loop,cps
@@ -988,20 +965,20 @@ def meyexudi():
   uuid = "MR"+str(os.getuid())+"TABBU-ARAIN"+str(os.getuid())+"FREE.TOOL"
   id = ''.join(uuid)
   try:
-    httpCaht = requests.get(f"https://github.com/Tabbu-Arain/Tabbu-Badshah/blob/main/approval.txt").text
+    httpCaht = requests.get(f"https://github.com/Tabbu-Arain/Tabbu-xd/blob/main/approval.txt").text
     if id in httpCaht:
       msg = str(os.geteuid())
       print()
       pass
     else:
-      print(" \033[32;1m[+] Your Key : "+id)      
-      print(' \x1b[1;98m║══[•]💥  ONLY ACTIVE ID CLONE 100%')
-      print(' \x1b[1;93m║══[•]💥  CP ID WILL BE LOGIN 80%')
-      print(' \x1b[1;97m║══[•]💥  WI-FI  AND DATA BOTH WORKING 100%')
+      print(" \033[32;1m[🔑] Your Key : "+id)      
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
+        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
       os.system('espeak -a 300 " Assalamualaikum,   I,   Am,    Robot,   of,   Tabbu,   Arain ,    Please,   Send,   Your,   Key,"')
-      print(" \x1b[0m║══[KEY]  : "+id)
+      print(" \x1b[0m[😈] KEY  : "+id)
       uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
-      input(' \033[1;30m╚══[•] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
+      input(' \033[1;30m[😈] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
       tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+994402197773?text='+tks),approval()       
   except:
     sys.exit()
