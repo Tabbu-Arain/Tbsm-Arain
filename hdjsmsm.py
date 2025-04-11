@@ -992,7 +992,7 @@ def meyexudi():
       pass
     else:
       print("\033[32;1m[🔑] Your Key : "+id)      
-        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[0m\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
         print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
         print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
       os.system('espeak -a 300 " Assalamualaikum,   I,   Am,    Robot,   of,   Tabbu,   Arain ,    Please,   Send,   Your,   Key,"')
