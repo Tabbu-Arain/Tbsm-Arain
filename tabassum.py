@@ -655,7 +655,7 @@ def __Old1__():
     year_code = '100000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=50) as jihad:
+    with tred(max_workers=100) as jihad:
         clear()
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
@@ -678,7 +678,7 @@ def __Old2__():
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=50) as jihad:
+    with tred(max_workers=100) as jihad:
         clear()
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
@@ -701,7 +701,7 @@ def __Old3__():
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=50) as jihad:
+    with tred(max_workers=100) as jihad:
         clear()
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
@@ -724,7 +724,7 @@ def __Old4__():
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=50) as jihad:
+    with tred(max_workers=100) as jihad:
         clear()
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
