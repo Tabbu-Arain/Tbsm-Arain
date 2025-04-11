@@ -635,17 +635,15 @@ def main():
 	print(f'\33[38;5;160m[\033[1;97mC/3\33[38;5;160m] \033[1;97mOLD CLONE \33[38;5;160m[\33[38;5;37m2013\33[38;5;160m/\33[38;5;37m2014\33[38;5;160m]\033[1;97m')
 	linex()
 	ch = input(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
-	if ch in ('1','01','11','A','১','০১','a','A'):
-		__Old1__()
 	elif ch in ('2','02','22','b','B'):
-		__Old2__()
+		__Old1__()
 	elif ch in ('3','33','03','c','C'):
-		__Old3__()
+		__Old2__()
 	elif ch in ('4','04','44','D','d'):
-		__Old4__()
+		__Old3__()
 
 
-def __Old2__():
+def __Old1__():
     user=[]
     clear()
     print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
@@ -668,7 +666,7 @@ def __Old2__():
             jihad.submit(login2,uid)
     line();print(f'\r\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
-def __Old3__():
+def __Old2__():
     user=[]
     clear()
     print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
@@ -691,7 +689,7 @@ def __Old3__():
             jihad.submit(login3,uid)
     line();print(f'\r\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mCLONING HAS BEEN COMPLETED...\33[38;5;160m!');linex();print(f'\r\r\r\r\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL OK \33[38;5;160m▶ \x1b[38;5;46m{len(oks)}');linex();input(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mPRESS ENTER TO RUN AGAIN...\33[38;5;160m!\033[1;37m');main()
 
-def __Old4__():
+def __Old3__():
     user=[]
     clear()
     print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤\033[1;97m 20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
@@ -976,7 +974,7 @@ def meyexudi():
         print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
         print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
       os.system('espeak -a 300 " Assalamualaikum,   I,   Am,    Robot,   of,   Tabbu,   Arain ,    Please,   Send,   Your,   Key,"')
-      print(" \x1b[0m[😈] KEY  : "+id)
+      print(" \x1b[0m[😈]KEY  : "+id)
       uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
       input(' \033[1;30m[😈] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
       tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+994402197773?text='+tks),approval()       
