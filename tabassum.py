@@ -996,9 +996,8 @@ def meyexudi():
     else:
       print("\033[32;1m[🔑] Your Key : "+id)
       os.system('espeak -a 300 " Assalamualaikum,   I,   Am,    Robot,   of,   Tabbu,   Arain ,    Please,   Send,   Your,   Key,"')
-      print(" \x1b[0m[🔑] KEY  : "+id)
-      uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
-      input(' \033[1;30m[😈] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
+      uname =input('\033[1;97m[\033[1;92m🤔\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
+      input('\033[1;30m[😈] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
       tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+994402197773?text='+tks),approval()       
   except:
     sys.exit()
