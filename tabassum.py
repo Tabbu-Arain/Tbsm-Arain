@@ -988,7 +988,7 @@ def meyexudi():
   uuid = "MR"+str(os.getuid())+"TABBU-ARAIN"+str(os.getuid())+"FREE.TOOL"
   id = ''.join(uuid)
   try:
-    httpCaht = requests.get(f"https://github.com/Tabbu-Arain/Tabbu-xd/blob/main/approval.txt").text
+    httpCaht = requests.get(f"https://github.com/Tabbu-Arain/Tabbu-Badshah/blob/main/approval.txt").text
     if id in httpCaht:
       msg = str(os.geteuid())
       print()
