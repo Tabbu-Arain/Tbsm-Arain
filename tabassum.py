@@ -657,8 +657,11 @@ def __Old1__():
     	data=str(random.choice(range(1000000000,1999999999)));user.append(data)
     with tred(max_workers=50) as jihad:
         clear()
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m▶ \033[1;97m{limit}')
-        print(f'\33[38;5;160m[\033[1;97mᯤ\33[38;5;160m] \033[1;97mUSED AIRPLANE MODE AFTER 5 MINUTE ')
+        print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
+        print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
         linex()
         for mal in user:
         	uid=year_code+mal
@@ -679,9 +682,9 @@ def __Old2__():
         clear()
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
-        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
-        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
-        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
         linex()
         for mal in user:
             uid=year_code+mal
@@ -702,9 +705,9 @@ def __Old3__():
         clear()
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
-        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
-        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
-        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
         linex()
         for mal in user:
             uid=year_code+mal
@@ -725,9 +728,9 @@ def __Old4__():
         clear()
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mTOTAL ID \33[38;5;160m➤ \033[1;97m{limit}')
         print(f'\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m] \033[1;97mUSE AIRPLANE MODE AFTER EVERY 5 MINUTES ')     
-        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
-        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
-        print(' \33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  50% CLONE IDS WILL LOGIN')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  80% CP IDS WILL LOGIN')
+        print('\33[38;5;160m[\033[1;97m[😈]\33[38;5;160m]  WORKS BOTH ON WIFI AND MOBILE DATA')
         linex()
         for mal in user:
             uid=year_code+mal
