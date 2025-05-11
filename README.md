@@ -10,6 +10,8 @@ ___𝙰𝙻𝙻 𝚃𝙷𝙴𝚂𝙴 𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝙸�
 
 # Screenshot 📷💾
 <img src="https://github.com/Tabbu-Arain/Tabbu-king/blob/main/WhatsApp%20Image%202025-03-15%20at%2022.29.08_e5af55a6.jpg" />
+<img src="https://github.com/Tabbu-Arain/7988U-9R91N/blob/main/0ec81dff-89c1-436a-aa27-ab36fb2f5b58.jpeg" />
+<img src="https://github.com/Tabbu-Arain/7988U-9R91N/blob/main/f8f8a277-15a5-486f-9be1-c58c85e62924.jpeg" />
 
 
 <h3 align="left">𝘾𝙤𝙣𝙣𝙚𝙘𝙩 𝙒𝙞𝙩𝙝 𝙈𝙚</h3>
